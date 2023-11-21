@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getAllProduct } from "../src/api-helper/frontend/util"
+import { getAllProduct } from "../../container/src/api-helper/frontend/util.js"
 import ProductList from "./component/product/ProductList.js";
 
 export default function Root(props){
